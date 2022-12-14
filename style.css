@@ -1,0 +1,25 @@
+section {
+  padding-top: 4rem;
+}
+
+.home {
+  background: url(./img/geometric_shape_and_lines_background\ 2.png);
+}
+
+img {
+  max-width: auto;
+}
+
+.aboutus {
+  background: url(./img/geometric_shape_and_lines_background\ 2.png);
+}
+
+.contact-card p {
+  font-size: 25px;
+  max-width: 100%;
+  height: auto;
+}
+
+.my-nav-img {
+  max-width: 100px;
+}
