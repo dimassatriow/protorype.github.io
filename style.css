@@ -1,5 +1,15 @@
+@font-face {
+  font-family: Poppins;
+  src: url("Poppins.otf");
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: bold;
+  src: url("Poppins.otf");
+}
+
 body {
-  font-family: "Verdana";
+  font-family: "Poppins";
   font-style: normal;
 }
 
@@ -8,10 +18,11 @@ body {
 }
 
 section {
+  min-height: 700px;
   padding-top: 4rem;
 }
 
-.home {
+.ourproduct {
   background: url(./img/geometric_shape_and_lines_background\ 2.png);
 }
 
@@ -19,7 +30,7 @@ img {
   max-width: auto;
 }
 
-.aboutus {
+.contact {
   background: url(./img/geometric_shape_and_lines_background\ 2.png);
 }
 
@@ -32,6 +43,33 @@ img {
 .my-nav-img {
   max-width: 100px;
 }
-.ourproduct .card i {
-  font-size: 80px;
+.ourproduct .card-title i {
+  font-size: 60px;
+}
+
+.ourproduct .card-body p {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 38px;
+}
+
+.ourproduct h5 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.ourproduct .desc-our {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.ourproduct .card:hover {
+  top: 4px;
+}
+
+.card {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
 }
