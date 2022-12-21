@@ -8,9 +8,47 @@
   src: url("Poppins.otf");
 }
 
-body {
+.poph {
   font-family: "Poppins";
   font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.pop1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+}
+
+.pop2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+}
+
+.pop3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#orange {
+  color: #f9b41c;
 }
 
 .myfs-1 {
@@ -18,12 +56,13 @@ body {
 }
 
 section {
-  min-height: 700px;
+  min-height: 650px;
   padding-top: 4rem;
 }
 
 .ourproduct {
   background: url(./img/geometric_shape_and_lines_background\ 2.png);
+  background-size: auto;
 }
 
 img {
@@ -32,6 +71,8 @@ img {
 
 .contact {
   background: url(./img/geometric_shape_and_lines_background\ 2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact-card p {
@@ -44,7 +85,9 @@ img {
   max-width: 100px;
 }
 .ourproduct .card-title i {
-  font-size: 60px;
+  font-size: 40px;
+  padding: 2px 9px;
+  border-radius: 15px;
 }
 
 .ourproduct .card-body p {
